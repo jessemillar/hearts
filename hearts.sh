@@ -137,7 +137,7 @@ NOTES=$(echo $NOTES | awk '{$1=$1};1')
 read -p "How many owned: [1] " -e OWNED
 
 ### Deck condition
-echo "Deck condition (for the majority of decks owned):"
+echo "Deck condition (for the majority of decks owned or the latest purchase):"
 CONDITION_OPTIONS=("Sealed" "Opened" "Used" "Destroyed")
 select OPTION in "${CONDITION_OPTIONS[@]}"; do
 	CONDITION=$OPTION
