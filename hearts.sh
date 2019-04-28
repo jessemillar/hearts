@@ -65,7 +65,7 @@ read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck distributor
 echo "Deck distributor:"
-DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "Unknown" "Custom")
+DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Unknown" "Custom")
 select OPTION in "${DISTRIBUTOR_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -79,6 +79,10 @@ do
 					;;
 			"Dan and Dave")
 					DISTRIBUTOR="Dan and Dave"
+					break
+					;;
+			"DeckStarter")
+					DISTRIBUTOR="DeckStarter"
 					break
 					;;
 			"Unknown")
@@ -101,7 +105,7 @@ ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
-MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "United States Playing Card Company" "Unknown" "Custom")
+MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Unknown" "Custom")
 select OPTION in "${MANUFACTURER_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -115,6 +119,10 @@ do
 					;;
 			"Dan and Dave")
 					MANUFACTURER="Dan and Dave"
+					break
+					;;
+			"DeckStarter")
+					MANUFACTURER="DeckStarter"
 					break
 					;;
 			"United States Playing Card Company")
