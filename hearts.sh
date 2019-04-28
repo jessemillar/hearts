@@ -25,6 +25,8 @@ while [ -z "$NAME" ]; do
 	read -p "Deck name: " -e NAME
 done
 
+# TODO Potentially handle adding the deck color as a suffix to the name
+
 ### Deck image
 while [ -z ${IMAGE} ]; do
 	read -p "Deck image: " -e IMAGE
