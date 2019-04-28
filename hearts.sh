@@ -5,6 +5,7 @@
 
 # Set non-defaulting variables to empties to allow for mandatory while loops below
 NAME=
+STYLE=
 DESCRIPTION=
 IMAGE=
 HOMEPAGE=
@@ -23,9 +24,15 @@ LIMITED_TOTAL=0
 while [ -z "$NAME" ]; do
 	# TODO Check the database for similar decks before adding to the array
 	read -p "Deck name: " -e NAME
+	# Trim whitespace
+	NAME=$(echo $NAME | awk '{$1=$1};1')
 done
 
-# TODO Potentially handle adding the deck color as a suffix to the name
+### Optional deck color
+read -p "Deck style/color: " -e STYLE
+if [ ! -z ${STYLE} ]; then
+	NAME="$NAME - $STYLE"
+fi
 
 ### Deck image
 while [ -z ${IMAGE} ]; do
@@ -48,7 +55,11 @@ if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 fi
 IMAGE=images/$IMAGE
 
+### Deck description
 read -p "Deck description: " -e DESCRIPTION
+# Trim whitespace
+DESCRIPTION=$(echo $DESCRIPTION | awk '{$1=$1};1')
+
 read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck distributor
@@ -119,7 +130,7 @@ read -p "Notes: " -e NOTES
 read -p "How many owned: [1] " -e OWNED
 
 ### Deck condition
-echo "Deck condition:"
+echo "Deck condition (for the majority of decks owned):"
 CONDITION_OPTIONS=("Sealed" "Opened" "Used" "Destroyed")
 select OPTION in "${CONDITION_OPTIONS[@]}"; do
 	CONDITION=$OPTION
