@@ -82,7 +82,7 @@ do
 					break
 					;;
 			"Custom")
-					while [ -z ${DISTRIBUTOR} ]; do
+					while [ -z "$DISTRIBUTOR" ]; do
 						read -p "Custom distributor: " -e DISTRIBUTOR
 					done
 					break
@@ -118,7 +118,7 @@ do
 					break
 					;;
 			"Custom")
-					while [ -z ${MANUFACTURER} ]; do
+					while [ -z "$MANUFACTURER" ]; do
 						read -p "Custom manufacturer: " -e MANUFACTURER
 					done
 					break

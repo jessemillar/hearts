@@ -117,5 +117,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "VIEWS Playing Cards",
+    "description": "VIEWS Playing Cards are a luxury, illusion-themed deck of cards created for cardists and magicians alike.",
+    "image": "images/views-playing-cards.png",
+    "homepage": "https://www.gotmagic.com/products/views-playing-cards",
+    "distributor": "Got Magic",
+    "artist": "Yves Krähenbühl﻿",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "1",
+      "total": "10000"
+    }
   }
 ]
