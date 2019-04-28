@@ -49,5 +49,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "The Harmony Collection - Air",
+    "description": "The Harmony Collection celebrates our planet's natural resources with four unique decks representing Sea, Land, Air, and Space. Together they embody our oneness as seen from the stars.",
+    "image": "images/the-harmony-collection---air.png",
+    "homepage": "https://www.artofplay.com/products/the-harmony-collection",
+    "distributor": "Art of Play",
+    "artist": "Mauro Martins",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "866911000467",
+    "notes": "With every deck sold, Art of Play will plant one tree.",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
