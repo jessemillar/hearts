@@ -15,5 +15,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Navigators",
+    "description": "A new, nautical themed deck of premium playing cards - with intricate detail in every aspect of the design. Even the INSIDE of the box has a gold foil, optical illusion pattern - like a mirage on the distant horizon.",
+    "image": "images/navigators.png",
+    "homepage": "https://store.theory11.com/products/navigator",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
