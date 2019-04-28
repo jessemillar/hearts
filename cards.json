@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "name": "Test",
+    "description": "",
+    "image": "images/",
+    "homepage": "",
+    "distributor": "",
+    "artist": "",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  },
+  {
+    "name": "Test",
+    "description": "",
+    "image": "images/test.jpn",
+    "homepage": "",
+    "distributor": "",
+    "artist": "",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  },
+  {
+    "name": "TEst",
+    "description": "",
+    "image": "images/test.jpg",
+    "homepage": "",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Used",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  }
+]
