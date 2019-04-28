@@ -168,5 +168,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Papercuts",
+    "description": "Hunched over a magnifying glass, craft knife in hand, Suzy Taylor is the epitome of patience and precision. Beneath her tiny blade is a blank sheet of paper, but in her imagination, a dizzyingly complex design is waiting to reveal itself. Days later, thousands of minuscule slivers of paper litter the tabletop and what is left is an intricate lace, extremely delicate and supremely beautiful. This is the time-honored tradition of paper cut art and these are new Papercut playing cards.",
+    "image": "images/papercuts.png",
+    "homepage": "https://www.artofplay.com/products/papercuts-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "Suzy Taylor",
+    "manufacturer": "Art of Play",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
