@@ -134,5 +134,22 @@
       "number": "1",
       "total": "10000"
     }
+  },
+  {
+    "name": "Vintage Plaid",
+    "description": "Inspired by our camping trips as children, each deck pays homage to the great outdoors. We're proud to say that while the original Vintage Plaids hold a special place in our hearts, our new updated design is really something to behold.",
+    "image": "images/vintage-plaid.png",
+    "homepage": "https://www.artofplay.com/products/vintage-plaid",
+    "distributor": "Dan and Dave",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "864403000087",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
