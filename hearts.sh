@@ -20,7 +20,7 @@ LIMITED_TOTAL=0
 
 ### Deck name
 # Mandatory fields are wrapped in while loops
-while [ -z ${NAME} ]; do
+while [ -z "$NAME" ]; do
 	# TODO Check the database for similar decks before adding to the array
 	read -p "Deck name: " -e NAME
 done
@@ -131,3 +131,6 @@ fi
 
 # Write to file
 jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --arg HOMEPAGE "$HOMEPAGE" --arg DISTRIBUTOR "$DISTRIBUTOR" --arg ARTIST "$ARTIST" --arg MANUFACTURER "$MANUFACTURER" --arg UPC "$UPC" --arg NOTES "$NOTES" --arg OWNED "$OWNED" --arg CONDITION "$CONDITION" --arg LIMITED_NUMBER "$LIMITED_NUMBER" --arg LIMITED_TOTAL "$LIMITED_TOTAL" '.[.| length] |= . + {"name": $NAME, "description": $DESCRIPTION, "image": $IMAGE, "homepage": $HOMEPAGE, "distributor": $DISTRIBUTOR, "artist": $ARTIST, "manufacturer": $MANUFACTURER, "upc": $UPC, "notes": $NOTES, "owned": $OWNED, "condition": $CONDITION, "limitedEdition": {"number": $LIMITED_NUMBER, "total": $LIMITED_TOTAL}}' cards.json > temp.json && mv -f temp.json cards.json
+
+# Push the update to GitHub
+git add -A && git commit -m "Adding the $NAME deck" && git push

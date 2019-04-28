@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "Neil Patrick Harris Playing Cards",
+    "description": "A legendary deck of premium playing cards that exudes elegance and sophistication.",
+    "image": "images/neil-patrick-harris-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/neil-patrick-harris-playing-cards",
+    "distributor": "theory11",
+    "artist": "Jay Fletcher",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "Contains a super fun series of riddles.",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  }
+]
