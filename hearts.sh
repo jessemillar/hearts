@@ -37,6 +37,7 @@ fi
 ### Deck image
 while [ -z ${IMAGE} ]; do
 	read -p "Deck image: " -e IMAGE
+	IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
 done
 
 # Download images provided via a URL
