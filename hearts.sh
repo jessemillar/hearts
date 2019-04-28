@@ -68,7 +68,7 @@ do
 					break
 					;;
 			"Custom")
-					while [ -z ${NAME} ]; do
+					while [ -z ${DISTRIBUTOR} ]; do
 						read -p "Custom distributor: " -e DISTRIBUTOR
 					done
 					break
@@ -78,7 +78,32 @@ do
 done
 
 read -p "Deck artist: " -e ARTIST
-read -p "Deck manufacturer: " -e MANUFACTURER
+
+### Deck manufacturer
+echo "Deck manufacturer:"
+MANUFACTURER_OPTIONS=("United States Playing Card Company" "Unknown" "Custom")
+select OPTION in "${MANUFACTURER_OPTIONS[@]}"
+do
+	case $OPTION in
+			"United States Playing Card Company")
+					MANUFACTURER="United States Playing Card Company"
+					break
+					;;
+			"Unknown")
+					MANUFACTURER="Unknown"
+					break
+					;;
+			"Custom")
+					while [ -z ${MANUFACTURER} ]; do
+						read -p "Custom manufacturer: " -e MANUFACTURER
+					done
+					break
+					;;
+			*) echo "Invalid option $REPLY";;
+	esac
+done
+
+
 read -p "Deck UPC: " -e UPC
 read -p "Notes: " -e NOTES
 read -p "How many owned: [1] " -e OWNED
