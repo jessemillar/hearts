@@ -66,7 +66,7 @@ do
 					break
 					;;
 			"Unknown")
-					DISTRIBUTOR="Unknown"
+					DISTRIBUTOR=""
 					break
 					;;
 			"Custom")
@@ -83,14 +83,10 @@ read -p "Deck artist: " -e ARTIST
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
-MANUFACTURER_OPTIONS=("United States Playing Card Company" "Art of Play" "theory11" "Unknown" "Custom")
+MANUFACTURER_OPTIONS=("Art of Play" "theory11" "United States Playing Card Company" "Unknown" "Custom")
 select OPTION in "${MANUFACTURER_OPTIONS[@]}"
 do
 	case $OPTION in
-			"United States Playing Card Company")
-					MANUFACTURER="United States Playing Card Company"
-					break
-					;;
 			"Art of Play")
 					MANUFACTURER="Art of Play"
 					break
@@ -99,8 +95,12 @@ do
 					MANUFACTURER="theory11"
 					break
 					;;
+			"United States Playing Card Company")
+					MANUFACTURER="United States Playing Card Company"
+					break
+					;;
 			"Unknown")
-					MANUFACTURER="Unknown"
+					MANUFACTURER=""
 					break
 					;;
 			"Custom")
