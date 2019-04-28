@@ -100,5 +100,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Animal Kingdom",
+    "description": "A collaboration with World Wildlife Fund. $1.00 per deck purchased will be donated to World Wildlife Fund to benefit global wildlife conservation.",
+    "image": "images/animal-kingdom.png",
+    "homepage": "https://store.theory11.com/products/animal-kingdom",
+    "distributor": "theory11",
+    "artist": "Hatch Design",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "2",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
