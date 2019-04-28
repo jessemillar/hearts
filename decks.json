@@ -117,22 +117,5 @@
       "number": "0",
       "total": "0"
     }
-  },
-  {
-    "name": "Test",
-    "description": "",
-    "image": "images/test.jpg",
-    "homepage": "",
-    "distributor": "Art of Play",
-    "artist": "",
-    "manufacturer": "Art of Play",
-    "upc": "",
-    "notes": "",
-    "owned": "",
-    "condition": "Sealed",
-    "limitedEdition": {
-      "number": "1",
-      "total": "1000"
-    }
   }
 ]
