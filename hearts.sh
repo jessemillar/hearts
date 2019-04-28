@@ -129,7 +129,11 @@ done
 
 
 read -p "Deck UPC: " -e UPC
+
+## Deck notes
 read -p "Notes: " -e NOTES
+NOTES=$(echo $NOTES | awk '{$1=$1};1')
+
 read -p "How many owned: [1] " -e OWNED
 
 ### Deck condition
