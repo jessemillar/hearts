@@ -1,6 +1,9 @@
 # Hearts
+## Installation
+- Relies on [`jq`](https://stedolan.github.io/jq/)
 
 ## Tentative Data Design
+```
 [{
   "title": "",
   "description": "",
@@ -18,3 +21,4 @@
     "total": 100
   }
 }]
+```
