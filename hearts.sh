@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Remove a lingering temp file from a previous bad run
+[[ -f temp.json ]] && rm temp.json
+
 # Set non-defaulting variables to empties to allow for mandatory while loops below
 NAME=
 DESCRIPTION=
@@ -38,9 +41,7 @@ if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 	cd ..
 	rm -rf tmp
 fi
-
 IMAGE=images/$IMAGE
-echo $IMAGE
 
 read -p "Deck homepage: " -e HOMEPAGE
 read -p "Deck distributor: " -e DISTRIBUTOR
@@ -54,15 +55,14 @@ read -p "Deck condition: [0] " -e CONDITION
 read -p "Is deck part of a limited release? [y/N] " -e LIMITED
 # TODO Make this work
 if [ "$LIMITED" = "y" ]; then
-	while [ -z ${LIMITED_TOTAL} ]; do
+	while [ $LIMITED_TOTAL = 0 ]; do
 		read -p "Limited edition total count: " -e LIMITED_TOTAL
 	done
 
-	while [ -z ${LIMITED_NUMBER} ]; do
+	while [ $LIMITED_NUMBER = 0 ]; do
 		read -p "Limited edition number: " -e LIMITED_NUMBER
 	done
 fi
 
 # Write to file
-jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --arg HOMEPAGE "$HOMEPAGE" --arg DISTRIBUTOR "$DISTRIBUTOR" --arg ARTIST "$ARTIST" --arg MANUFACTURER "$MANUFACTURER" --arg UPC "$UPC" --arg NOTES "$NOTES" --arg OWNED "$OWNED" --arg CONDITION $CONDITION --arg LIMITED_NUMBER $LIMITED_NUMBER --arg LIMITED_TOTAL $LIMITED_TOTAL '.[.| length] |= . + {"name": $NAME, "description": $DESCRIPTION, "image": $IMAGE, "homepage": $HOMEPAGE, "distributor": $DISTRIBUTOR, "artist": $ARTIST, "manufacturer": $MANUFACTURER, "upc": $UPC, "notes": $NOTES, "owned": $OWNED, "condition": $CONDITION, "limitedEdition": {"number": $LIMITED_NUMBER, "total": $LIMITED_TOTAL}}' cards.json > temp.json
-mv -f temp.json cards.json
+jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --arg HOMEPAGE "$HOMEPAGE" --arg DISTRIBUTOR "$DISTRIBUTOR" --arg ARTIST "$ARTIST" --arg MANUFACTURER "$MANUFACTURER" --arg UPC "$UPC" --arg NOTES "$NOTES" --arg OWNED $OWNED --arg CONDITION $CONDITION --arg LIMITED_NUMBER $LIMITED_NUMBER --arg LIMITED_TOTAL $LIMITED_TOTAL '.[.| length] |= . + {"name": $NAME, "description": $DESCRIPTION, "image": $IMAGE, "homepage": $HOMEPAGE, "distributor": $DISTRIBUTOR, "artist": $ARTIST, "manufacturer": $MANUFACTURER, "upc": $UPC, "notes": $NOTES, "owned": $OWNED, "condition": $CONDITION, "limitedEdition": {"number": $LIMITED_NUMBER, "total": $LIMITED_TOTAL}}' cards.json > temp.json && mv -f temp.json cards.json
