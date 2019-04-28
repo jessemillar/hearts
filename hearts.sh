@@ -91,7 +91,9 @@ do
 	esac
 done
 
+### Deck artist
 read -p "Deck artist: " -e ARTIST
+ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
@@ -152,7 +154,7 @@ if [ "$LIMITED" = "y" ]; then
 fi
 
 # Write to file
-jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --arg HOMEPAGE "$HOMEPAGE" --arg DISTRIBUTOR "$DISTRIBUTOR" --arg ARTIST "$ARTIST" --arg MANUFACTURER "$MANUFACTURER" --arg UPC "$UPC" --arg NOTES "$NOTES" --arg OWNED "$OWNED" --arg CONDITION "$CONDITION" --arg LIMITED_NUMBER "$LIMITED_NUMBER" --arg LIMITED_TOTAL "$LIMITED_TOTAL" '.[.| length] |= . + {"name": $NAME, "description": $DESCRIPTION, "image": $IMAGE, "homepage": $HOMEPAGE, "distributor": $DISTRIBUTOR, "artist": $ARTIST, "manufacturer": $MANUFACTURER, "upc": $UPC, "notes": $NOTES, "owned": $OWNED, "condition": $CONDITION, "limitedEdition": {"number": $LIMITED_NUMBER, "total": $LIMITED_TOTAL}}' cards.json > temp.json && mv -f temp.json cards.json
+jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --arg HOMEPAGE "$HOMEPAGE" --arg DISTRIBUTOR "$DISTRIBUTOR" --arg ARTIST "$ARTIST" --arg MANUFACTURER "$MANUFACTURER" --arg UPC "$UPC" --arg NOTES "$NOTES" --arg OWNED "$OWNED" --arg CONDITION "$CONDITION" --arg LIMITED_NUMBER "$LIMITED_NUMBER" --arg LIMITED_TOTAL "$LIMITED_TOTAL" '.[.| length] |= . + {"name": $NAME, "description": $DESCRIPTION, "image": $IMAGE, "homepage": $HOMEPAGE, "distributor": $DISTRIBUTOR, "artist": $ARTIST, "manufacturer": $MANUFACTURER, "upc": $UPC, "notes": $NOTES, "owned": $OWNED, "condition": $CONDITION, "limitedEdition": {"number": $LIMITED_NUMBER, "total": $LIMITED_TOTAL}}' decks.json > temp.json && mv -f temp.json decks.json
 
 # Push the update to GitHub
 git add -A && git commit -m "Adding the $NAME deck" && git push
