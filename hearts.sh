@@ -162,7 +162,7 @@ done
 
 ### Limited release decks
 read -p "Is deck part of a limited release? [y/N] " -e LIMITED
-if [ $LIMITED == y ]; then
+if [ "$LIMITED" == y ]; then
 	while [ $LIMITED_TOTAL = 0 ]; do
 		read -p "Limited edition total count: " -e LIMITED_TOTAL
 	done
