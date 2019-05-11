@@ -253,5 +253,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "National - Green",
+    "description": "Just in time for St. Patrick's Day! Green National Playing Cards are Made in the USA using FSC-certified paper derived from sustainable forests, vegetable-based inks, and starch-based laminates. They're green - and eco-friendly!",
+    "image": "images/national---green.png",
+    "homepage": "https://store.theory11.com/products/green-national-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
