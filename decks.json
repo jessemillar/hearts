@@ -185,5 +185,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Flora - Black",
+    "description": "From amateur magician and playing card designer Paul Robaia, we're pleased to present his latest deck, Black Flora. Similar to Red Flora, the design features a colorful print inspired by Hawaiin floral patterns, against a black backdrop.",
+    "image": "images/flora---black.png",
+    "homepage": "https://www.artofplay.com/products/black-flora",
+    "distributor": "Art of Play",
+    "artist": "Paul Robaia",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
