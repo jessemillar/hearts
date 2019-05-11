@@ -236,5 +236,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Off the Wall",
+    "description": "These rebel playing cards are inspired by 80s surf and skate culture in sunny California. The radical design is off the wall and bursting to be played with!",
+    "image": "images/off-the-wall.png",
+    "homepage": "https://www.artofplay.com/products/off-the-wall",
+    "distributor": "Art of Play",
+    "artist": "Studio Muti",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "This limited edition deck features a borderless back-design, oversized court cards and a vibrant tuck box printed with shiny silver foil.",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
