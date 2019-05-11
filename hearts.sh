@@ -30,7 +30,7 @@ done
 
 ### Optional deck color
 read -p "Deck style/color: " -e STYLE
-if [ ! -z ${STYLE} ]; then
+if [ ! -z "$STYLE" ]; then
 	NAME="$NAME - $STYLE"
 fi
 
