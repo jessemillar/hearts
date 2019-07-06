@@ -177,46 +177,6 @@ if [ "$LIMITED" == y ]; then
 
 	while [ $LIMITED_NUMBER = 0 ]; do
 		read -p "Limited edition number: " -e LIMITED_NUMBER
-			"Unknown")
-					MANUFACTURER=""
-					break
-					;;
-			"Custom")
-					while [ -z "$MANUFACTURER" ]; do
-						read -p "Custom manufacturer: " -e MANUFACTURER
-					done
-					break
-					;;
-			*) echo "Invalid option $REPLY";;
-	esac
-done
-
-
-read -p "Deck UPC: " -e UPC
-
-## Deck notes
-read -p "Notes: " -e NOTES
-NOTES=$(echo $NOTES | awk '{$1=$1};1')
-
-read -p "How many owned: [1] " -e OWNED
-
-### Deck condition
-echo "Deck condition (for the majority of decks owned or the latest purchase):"
-CONDITION_OPTIONS=("Sealed" "Opened" "Used" "Destroyed")
-select OPTION in "${CONDITION_OPTIONS[@]}"; do
-	CONDITION=$OPTION
-	break
-done
-
-### Limited release decks
-read -p "Is deck part of a limited release? [y/N] " -e LIMITED
-if [ "$LIMITED" == y ]; then
-	while [ $LIMITED_TOTAL = 0 ]; do
-		read -p "Limited edition total count: " -e LIMITED_TOTAL
-	done
-
-	while [ $LIMITED_NUMBER = 0 ]; do
-		read -p "Limited edition number: " -e LIMITED_NUMBER
 	done
 fi
 
@@ -225,3 +185,4 @@ jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --ar
 
 # Push the update to GitHub
 git add -A && git commit -m "Adding the $NAME deck" && git push
+
