@@ -508,5 +508,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Citizens",
+    "description": "Citizens™ are the most intricate, breathtaking playing cards we’ve ever produced. Made in America, every aspect was handcrafted with relentless, unrivaled attention to detail.",
+    "image": "images/citizens.jpg",
+    "homepage": "https://store.theory11.com/products/citizens-playing-cards",
+    "distributor": "theory11",
+    "artist": "Kevin Cantrell",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "I also own the box set that came with 6 decks.",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
