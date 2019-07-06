@@ -280,9 +280,26 @@
     "artist": "Kevin Cantrell Studio",
     "manufacturer": "United States Playing Card Company",
     "upc": "",
-    "notes": "",
+    "notes": "Of the three included decks (black, gold, and red), I've only opened the black.",
     "owned": "",
     "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  },
+  {
+    "name": "NOC - Midnight",
+    "description": "Crafted in collaboration with Alex Pandrea, creator of the NOC brand, with a custom Ace of Spades, Joker, package, and sticker seal exclusive to this edition. The deck itself features an all-black, ultra-thin border back design... with a hidden secret contained within.",
+    "image": "images/noc---midnight.png",
+    "homepage": "https://store.theory11.com/products/black-noc",
+    "distributor": "theory11",
+    "artist": "Alex Pandrea",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
     "limitedEdition": {
       "number": "0",
       "total": "0"
