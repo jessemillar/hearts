@@ -270,5 +270,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Standards - Box Set",
+    "description": "Inspired by nineteenth-century British opulence, an era of elegance unsurpassed, Standards premium playing cards redefine luxury at the card table.",
+    "image": "images/standards---box-set.png",
+    "homepage": "https://www.artofplay.com/collections/playing-cards/products/standards?variant=22910546542650",
+    "distributor": "Art of Play",
+    "artist": "Kevin Cantrell Studio",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
