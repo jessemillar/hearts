@@ -372,5 +372,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "High Victorian Playing Cards",
+    "description": "Every single playing card within the High Victorian deck was designed from scratch - even the Aces, Jokers, and court cards exude the grand excess of ornamentation quintessential to the Victorian era. In a word: breathtaking.",
+    "image": "images/high-victorian-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/high-victorian-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
