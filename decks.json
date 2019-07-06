@@ -406,5 +406,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Andy Warhol Playing Cards",
+    "description": "This set of Andy Warhol Playing Cards from Mudpuppy features drawings depicting each suit created by Warhol himself. The white and pink hearts, diamonds, spades, and clubs are sure to bring a smile to your face every time you play!",
+    "image": "images/andy-warhol-playing-cards.png",
+    "homepage": "https://www.mudpuppy.com/products/andy-warhol-playing-cards",
+    "distributor": "Mudpuppy",
+    "artist": "Andy Warhol",
+    "manufacturer": "",
+    "upc": "9780735349278",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
