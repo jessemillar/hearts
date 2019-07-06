@@ -491,5 +491,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Citizens - Wood Box Set",
+    "description": "The wood box set was engineered by Jason Lefton specifically to hold six decks, in the most precise manner possible. Illustrated art covers three panels, with the CITIZEN typography engraved on the side of the box. The hardwood box, along with the cards inside, is handcrafted in America.",
+    "image": "images/citizens---wood-box-set.png",
+    "homepage": "https://store.theory11.com/products/citizens-playing-cards",
+    "distributor": "theory11",
+    "artist": "Jason Lefton",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
