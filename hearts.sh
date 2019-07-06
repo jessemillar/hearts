@@ -22,7 +22,6 @@ LIMITED_TOTAL=0
 ### Deck name
 # Mandatory fields are wrapped in while loops
 while [ -z "$NAME" ]; do
-	# TODO Check the database for similar decks before adding to the array
 	read -p "Deck name: " -e NAME
 	# Trim whitespace
 	NAME=$(echo $NAME | awk '{$1=$1};1')
@@ -32,6 +31,13 @@ done
 read -p "Deck style/color: " -e STYLE
 if [ ! -z "$STYLE" ]; then
 	NAME="$NAME - $STYLE"
+fi
+
+# Check the database for similar decks before adding to the array
+SEARCH_RESULTS=$(cat decks.json | jq --arg NAME "$NAME" '.[] | select(.name|test($NAME)) | .name')
+if [ ! -z "$SEARCH_RESULTS" ]; then
+	echo "A deck named '$NAME' already exists in decks.json"
+	exit 1
 fi
 
 ### Deck image
