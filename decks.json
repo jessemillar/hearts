@@ -610,5 +610,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Tally-Ho Fan Back - Red",
+    "description": "A high quality, Linoid finish makes Tally-Ho playing cards the premiere choice among flourishers and card magicians alike.",
+    "image": "images/tally-ho-fan-back---red.png",
+    "homepage": "https://store.theory11.com/products/tallyho-fan",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854000090",
+    "notes": "",
+    "owned": "2",
+    "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
