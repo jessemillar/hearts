@@ -468,8 +468,8 @@
     "manufacturer": "Bicycle",
     "upc": "",
     "notes": "",
-    "owned": "",
-    "condition": "Used",
+    "owned": "9",
+    "condition": "Sealed",
     "limitedEdition": {
       "number": "0",
       "total": "0"
