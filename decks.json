@@ -440,5 +440,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Totoro Playing Cards",
+    "description": "A beautifully illustrated pack of cards featuring Totoro and friends.",
+    "image": "images/totoro-playing-cards.png",
+    "homepage": "https://totoro-shop.com/en/studio-ghibli-movies/1-totoro-playing-cards.html",
+    "distributor": "Studio Ghibli",
+    "artist": "Studio Ghibli",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
