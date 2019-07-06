@@ -115,7 +115,7 @@ ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
-MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Bicycle" "United States Playing Card Company" "Unknown" "Custom")
+MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Unknown" "Custom")
 select OPTION in "${MANUFACTURER_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -133,10 +133,6 @@ do
 					;;
 			"DeckStarter")
 					MANUFACTURER="DeckStarter"
-					break
-					;;
-			"Bicycle")
-					MANUFACTURER="Bicycle"
 					break
 					;;
 			"United States Playing Card Company")
