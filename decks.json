@@ -321,5 +321,22 @@
       "number": "",
       "total": "5000"
     }
+  },
+  {
+    "name": "Bicycle Aureo",
+    "description": "Features unique designs inspired by the art of the Renaissance and the Golden Ratio.",
+    "image": "images/bicycle-aureo.png",
+    "homepage": "https://bicyclecards.com/product/bicycle-aureo/",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "Bicycle",
+    "upc": "073854024324",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
