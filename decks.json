@@ -304,5 +304,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Ace Fulton's Casino - Pink",
+    "description": "The highly sought after Ace Fulton’s Casino playing cards are back and in Pink! This new edition to the franchise features the original enlarged logo back design, Arrco®-style court cards, an all-new ace of spades and matching jokers.",
+    "image": "images/ace-fulton's-casino---pink.png",
+    "homepage": "https://www.artofplay.com/products/ace-fultons-casino-pink-edition",
+    "distributor": "Dan and Dave",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "",
+      "total": "5000"
+    }
   }
 ]
