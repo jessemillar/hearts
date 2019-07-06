@@ -65,7 +65,7 @@ read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck distributor
 echo "Deck distributor:"
-DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Unknown" "Custom")
+DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Bicycle" "Unknown" "Custom")
 select OPTION in "${DISTRIBUTOR_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -83,6 +83,10 @@ do
 					;;
 			"DeckStarter")
 					DISTRIBUTOR="DeckStarter"
+					break
+					;;
+			"Bicycle")
+					DISTRIBUTOR="Bicycle"
 					break
 					;;
 			"Unknown")
@@ -105,7 +109,7 @@ ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
-MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Unknown" "Custom")
+MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Bicycle" "Unknown" "Custom")
 select OPTION in "${MANUFACTURER_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -129,6 +133,50 @@ do
 					MANUFACTURER="United States Playing Card Company"
 					break
 					;;
+			"Bicycle")
+					MANUFACTURER="Bicycle"
+					break
+					;;
+			"Unknown")
+					MANUFACTURER=""
+					break
+					;;
+			"Custom")
+					while [ -z "$MANUFACTURER" ]; do
+						read -p "Custom manufacturer: " -e MANUFACTURER
+					done
+					break
+					;;
+			*) echo "Invalid option $REPLY";;
+	esac
+done
+
+
+read -p "Deck UPC: " -e UPC
+
+## Deck notes
+read -p "Notes: " -e NOTES
+NOTES=$(echo $NOTES | awk '{$1=$1};1')
+
+read -p "How many owned: [1] " -e OWNED
+
+### Deck condition
+echo "Deck condition (for the majority of decks owned or the latest purchase):"
+CONDITION_OPTIONS=("Sealed" "Opened" "Used" "Destroyed")
+select OPTION in "${CONDITION_OPTIONS[@]}"; do
+	CONDITION=$OPTION
+	break
+done
+
+### Limited release decks
+read -p "Is deck part of a limited release? [y/N] " -e LIMITED
+if [ "$LIMITED" == y ]; then
+	while [ $LIMITED_TOTAL = 0 ]; do
+		read -p "Limited edition total count: " -e LIMITED_TOTAL
+	done
+
+	while [ $LIMITED_NUMBER = 0 ]; do
+		read -p "Limited edition number: " -e LIMITED_NUMBER
 			"Unknown")
 					MANUFACTURER=""
 					break
