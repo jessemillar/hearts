@@ -389,5 +389,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Johnny Cupcakes",
+    "description": "The Johnny Cupcakes third limited edition Bicycle Playing Card collaboration is here in a BRIGHT, new colorway! Collect them to play games with friends, do some magic tricks, and show them off while wearing the new matching Playing Card tees!",
+    "image": "images/johnny-cupcakes.png",
+    "homepage": "https://johnnycupcakes.com/products/playing-cards?variant=12104334868594",
+    "distributor": "Johnny Cupcakes",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
