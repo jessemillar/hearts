@@ -780,5 +780,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "LUXX Greille - Copper",
+    "description": "The latest edition in the highly successful LUXX® premium playing card line, the Greille (French for “grill”) deck boasts a sleek modernist design by Rick Davidson that will make it the star of any cardistry event or rare card collection.",
+    "image": "images/luxx-greille---copper.png",
+    "homepage": "https://rareplayingcards.com/products/luxx-greille",
+    "distributor": "",
+    "artist": "Rick Davidson",
+    "manufacturer": "Legends Playing Card Co.",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
