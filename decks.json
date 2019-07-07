@@ -882,5 +882,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "BlackTales Playing Cards",
+    "description": "BlackTales Playing cards it is the results of over a year of work, with the goal of create a deck with unique identity but maintaining and respecting the traditional style of the cards, a style that is familiar to everyone, whether magicians, players, collectors, etc. In the search to represent an ancient and alternative origin of the playing cards and the magic, I found in pirates elements such as cheating, bets, azar, mystery, humans, basics, sea. Elements that together describe the possibilities and nature of the cards.",
+    "image": "images/blacktales-playing-cards.png",
+    "homepage": "https://www.kickstarter.com/projects/edmcrown/blacktales-playing-cards",
+    "distributor": "Kickstarter",
+    "artist": "Eduardo Méndez",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
