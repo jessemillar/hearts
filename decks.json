@@ -763,5 +763,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Firefly Playing Cards",
+    "description": "QMx teamed up with renowned Browncoat artist Ben Mund (of Serenity Blueprints and Atlas of the Verse fame) and Bicycle to create the first-ever officially licensed Firefly Playing Cards. The deck consists of the standard four suits of 13 cards each plus two jokers, and features designs that are anything but standard.",
+    "image": "images/firefly-playing-cards.png",
+    "homepage": "https://qmxonline.com/products/firefly-playing-cards",
+    "distributor": "Quantum Mechanix Inc.",
+    "artist": "Ben Mund",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "812095020623",
+    "notes": "",
+    "owned": "2",
+    "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
