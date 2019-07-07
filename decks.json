@@ -797,5 +797,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Neo",
+    "description": "A modern and colorful design inspired by Cubism and the Avant-garde fashion trends of the early 1900's. Spearheaded by the works of Pablo Picasso this new art movement displays many geometric shapes incorporated into abstract designs and colors.",
+    "image": "images/neo.png",
+    "homepage": "https://www.kickstarter.com/projects/montenzi/neo-playing-cards",
+    "distributor": "Montenzi Design",
+    "artist": "Montenzi Design",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
