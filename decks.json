@@ -746,5 +746,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "AutoBike No. 1 - Red",
+    "description": "The original deck was printed from 1902 to 1906 and produced only in red and blue colors. The tuck and back designs illustrate the intricate style of the early Bicycle® and Russell & Morgan brands.",
+    "image": "images/autobike-no.-1---red.png",
+    "homepage": "https://bicyclecards.com/product/autobike-no-1/",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854023969",
+    "notes": "",
+    "owned": "",
+    "condition": "Sealed",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
