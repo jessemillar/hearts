@@ -865,5 +865,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Overwatch Playing Cards",
+    "description": "",
+    "image": "images/overwatch-playing-cards.png",
+    "homepage": "Play to win like D.Va with this official Overwatch card deck. It's analog RNG!",
+    "distributor": "Blizzard Entertainment, Inc.",
+    "artist": "Blizzard Entertainment, Inc.",
+    "manufacturer": "Blizzard Entertainment, Inc.",
+    "upc": "020626140065",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
