@@ -916,5 +916,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Mystery Box - Black",
+    "description": "Each deck of Mystery Box Playing Cards is sealed with a kraft paper, letterpress wrap that inspires intrigue and endless wonder. Keep it closed, tear it open, or share the experience with a friend. The choice is yours.",
+    "image": "images/mystery-box---black.png",
+    "homepage": "https://store.theory11.com/products/mysterybox",
+    "distributor": "theory11",
+    "artist": "J.J. Abrams, Jonathan Bayme",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
