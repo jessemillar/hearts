@@ -950,5 +950,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Fournier 505 - Blue",
+    "description": "From the Spanish playing card company Fournier we are pleased to offer their signature deck, Fournier 505. The cards feature an elegant victorian-style back design, a stiff card-stock ideal for cardistry, a smooth plastic-like finish, and colorful court cards. Packaged inside a recycled-paper tuck box.",
+    "image": "images/fournier-505---blue.png",
+    "homepage": "https://www.artofplay.com/products/fournier-505",
+    "distributor": "Art of Play",
+    "artist": "",
+    "manufacturer": "Fournier",
+    "upc": "8420707037055",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
