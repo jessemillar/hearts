@@ -967,5 +967,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Visa Playing Cards - Green",
+    "description": "A unique collaboration between magicians Alex Pandrea and Patrick Kun. VISA Playing Cards pay tribute to adventure, and invite you to \"escape, discover and journey\", a motto printed on the back of every card.",
+    "image": "images/visa-playing-cards---green.png",
+    "homepage": "https://www.artofplay.com/products/visa-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "Alex Pandrea, Patrick Kun",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
