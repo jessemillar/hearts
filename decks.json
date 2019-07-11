@@ -984,5 +984,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Texan Playing Cards",
+    "description": "This great little deck is made to look like an authentic \"Texan\" deck from the wild west. The cards are tinted a yellow color, the pips and card faces have an antique design, and the backs have a \"lone star\" emblem to make them look as though they had been pulled directly out of a nineteenth century, El Paso saloon.",
+    "image": "images/texan-playing-cards.png",
+    "homepage": "https://playingcarddecks.com/products/texan-deck-playing-cards-poker-size-uspcc-order-no-45-r-custom-limited-sealed",
+    "distributor": "United States Playing Card Company",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854000458",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
