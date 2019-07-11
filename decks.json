@@ -933,5 +933,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Bone Riders",
+    "description": "These spooky limited edition playing cards are the perfect way to put the “trick” back in “trick or treat\" this Halloween season.",
+    "image": "images/bicycle-bone-riders.png",
+    "homepage": "https://www.artofplay.com/products/bicycle-bone-riders-playing-cards",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
