@@ -1035,5 +1035,22 @@
       "number": "",
       "total": "2500"
     }
+  },
+  {
+    "name": "Rarebit - Copper",
+    "description": "Inspired by a vintage, speakeasy restaurant called The Rarebit in Charleston, South Carolina, Rarebit Playing Cards became an instant collector's item upon release in 2013 at theory11. Last year, the first edition sold out in a record-shattering 16 HOURS and sells for up to $225 per deck on eBay.",
+    "image": "images/rarebit---copper.png",
+    "homepage": "https://store.theory11.com/products/rarebit-copper-edition-playing-cards",
+    "distributor": "theory11",
+    "artist": "Jay Fletcher",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
