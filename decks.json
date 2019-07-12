@@ -1018,5 +1018,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Flourish",
+    "description": "In collaboration with Column Five comes our first release of 2017. A whisk of original design with a familiar playing card aesthetic, Flourish is a sweet new deck unlike any we've produced before. The bakery theme delights with every card and is sure to leave you wanting more. From the original pink back design to the illustrated court cards and custom faces, Flourish is full of flavor and an irresistible addition to our collection.",
+    "image": "images/flourish.png",
+    "homepage": "https://www.artofplay.com/products/flourish",
+    "distributor": "Art of Play",
+    "artist": "Column Five",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "",
+      "total": "2500"
+    }
   }
 ]
