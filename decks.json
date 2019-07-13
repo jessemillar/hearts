@@ -1137,5 +1137,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Starlight Playing Cards",
+    "description": "The Starlight playing cards feature 56 custom cards printed on the classic Air-Cushion Finish. The deck displays a glorious abyss of glowing stars that will keep you in awe and wonder. Released by Collectable Playing Cards and printed by USPCC, this deck is definitely one for the ages.",
+    "image": "images/bicycle-starlight-playing-cards.png",
+    "homepage": "https://www.kickstarter.com/projects/2104052526/bicycle-starlight-playing-cards",
+    "distributor": "Collectable Playing Cards",
+    "artist": "Juniardi Satyanagara",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "640213423717",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
