@@ -1817,5 +1817,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Custom Bernard Pants Playing Cards",
+    "description": "A custom deck of Bicycle playing cards given to me by my family for a past Christmas. It features art drawn by me of one of our Penguins who seems to have stolen my pants.",
+    "image": "images/bicycle-custom-bernard-pants-playing-cards.png",
+    "homepage": "",
+    "distributor": "Bicycle",
+    "artist": "Jesse Millar",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "1",
+      "total": "1"
+    }
   }
 ]
