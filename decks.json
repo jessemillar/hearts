@@ -1664,5 +1664,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "JAQK - Amethyst Edition",
+    "description": "With vibrant, striking purple, this new edition is our most elegant yet. Blind-embossed accents across the surface create a 3D texture on the front of the box that feels just as luxurious as it looks.",
+    "image": "images/jaqk---amethyst-edition.png",
+    "homepage": "https://store.theory11.com/products/jaqk-amethyst-edition",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
