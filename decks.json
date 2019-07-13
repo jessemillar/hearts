@@ -1579,5 +1579,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "The Woodland Deck",
+    "description": "This playing card deck features original illustrations from our own Joe Morelli and is unlike any other deck that you have seen. Our successful Kickstarter campaign helped these cards become a reality.",
+    "image": "images/the-woodland-deck.png",
+    "homepage": "https://www.poconomodern.com/shop/the-woodland-deck-playing-cards",
+    "distributor": "Pocono Modern",
+    "artist": "Joe Morelli",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
