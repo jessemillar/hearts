@@ -1290,5 +1290,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Livingstone",
+    "description": "Journey through the depths of the African interior with Pure Imagination Project's Livingstone Playing Cards. Inspired by the 19th century explorer, David Livingstone, and hand drawn by the incredibly talented Jonathan Schubert, Livingstone Playing Cards feature a beautiful palmetto-filled back design with a custom Ace of Spades and Joker as well.",
+    "image": "images/livingstone.png",
+    "homepage": "https://shop.52kards.com/products/livingstone-playing-cards-by-pure-imagination",
+    "distributor": "Pure Imagination Projects",
+    "artist": "Jonathan Schubert",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
