@@ -1205,5 +1205,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "AVIATOR - Heritage Ed.",
+    "description": "Introduced in 1927 to commemorate Charles Lindbergh's transatlantic flight aboard the Spirit of St. Louis, AVIATOR® Playing Cards have been available in stores around the world ever since.",
+    "image": "images/aviator---heritage-ed..png",
+    "homepage": "https://www.artofplay.com/products/aviator-heritage-edition",
+    "distributor": "Dan and Dave",
+    "artist": "Abraham Garcia",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854022528",
+    "notes": "",
+    "owned": "",
+    "condition": "Used",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
