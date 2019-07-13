@@ -1749,5 +1749,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Aurora Playing Cards",
+    "description": "It is easy to see why Bicycle® Aurora Playing Cards are named for Latin word for \"Dawn\". With their rich gold court cards representing sunrise, silver inks used on numeral cards to represent nightfall, and the intricate cards backs boasting a beautiful representation of the sun.",
+    "image": "images/bicycle-aurora-playing-cards.png",
+    "homepage": "https://bicyclecards.com/product/bicycle-aurora-playing-cards/",
+    "distributor": "Collectable Playing Cards",
+    "artist": "Johnny Whaam",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854023938",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
