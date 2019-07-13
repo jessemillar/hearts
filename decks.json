@@ -1528,5 +1528,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Camp Cards - Black",
+    "description": "Designed for those who venture onward and live adventurously. Illustrated by 1924US in collaboration with adventure brand, Bradley Mountain.",
+    "image": "images/camp-cards---black.png",
+    "homepage": "https://www.artofplay.com/products/camp-cards",
+    "distributor": "Art of Play",
+    "artist": "1924US",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
