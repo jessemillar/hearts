@@ -1681,5 +1681,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Artisans - Black Edition",
+    "description": "Illustrated by hand in South Africa, Artisans are in a league of their own. A breathtaking mix of elegance, style, and sophistication.",
+    "image": "images/artisans---black-edition.png",
+    "homepage": "https://store.theory11.com/products/artisans",
+    "distributor": "theory11",
+    "artist": "Simon Frouws",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
