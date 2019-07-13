@@ -1494,5 +1494,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Monarch Playing Cards - Black",
+    "description": "They look like they belong in a palace. Gold foil surrounds the elegant, navy blue box design. The gold metallic foil is striking, with a vintage, timeless aesthetic. They're absolutely breathtaking - and they feel as good as they look.",
+    "image": "images/monarch-playing-cards---black.png",
+    "homepage": "https://store.theory11.com/products/monarchs",
+    "distributor": "theory11",
+    "artist": "Curtis Jenkins",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
