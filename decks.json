@@ -1800,5 +1800,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Aristocrats - Red",
+    "description": "The Aristocrats will not be a collector's item. They already ARE a collector's item. A reinvention of a classic, timeless design.",
+    "image": "images/aristocrats---red.png",
+    "homepage": "https://store.theory11.com/products/aristocrats",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854018798",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
