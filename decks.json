@@ -1222,5 +1222,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "DeckStarter Brand Deck",
+    "description": "Promotional deck for DeckStarter*, a platform that allowed designers to create their own playing cards.",
+    "image": "images/deckstarter-brand-deck.png",
+    "homepage": "https://www.artofplay.com/products/deckstarter",
+    "distributor": "DeckStarter",
+    "artist": "",
+    "manufacturer": "DeckStarter",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
