@@ -1443,5 +1443,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Autumn",
+    "description": "Updated from a classic card back design, Bicycle Autumn Playing Cards honor the changing of the seasons by bringing a modern twist on an archival classic, outfitted in tones of mixed metals and dressed to celebrate traditions, old and new.",
+    "image": "images/bicycle-autumn.png",
+    "homepage": "https://rareplayingcards.com/products/bicycle-autumn",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854022917",
+    "notes": "",
+    "owned": "",
+    "condition": "Used",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
