@@ -1426,5 +1426,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Union Playing Cards",
+    "description": "Timeless Americana is laced throughout the design, with iconography of colonial America and patriotic symbols of peace, prosperity, and potential. Unions are Made in America, using FSC-certified paper, vegetable-based inks, and starch-based laminates.",
+    "image": "images/union-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/union-playing-cards",
+    "distributor": "theory11",
+    "artist": "Jay Fletcher",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
