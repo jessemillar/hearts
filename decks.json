@@ -1273,5 +1273,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "National Playing Cards",
+    "description": "National Playing Cards were inspired by mystery and the pursuit of power. Each tuck case is embossed and detailed with striking gold and black foil, inside and out.",
+    "image": "images/national-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/national-playing-cards",
+    "distributor": "theory11",
+    "artist": "Harold Apples",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
