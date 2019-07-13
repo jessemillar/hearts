@@ -1392,5 +1392,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "A Typographer's Deck",
+    "description": "In collaboration with Turkish artist Furkan Şener we are pleased to present A Typographer's Deck. This unique deck of playing cards features 54 custom playing cards represented through the art of typography. The detailed back design and easy-to-read pips ensure that game play is both practical and fun. Packaged inside a matching tuck case.",
+    "image": "images/a-typographer's-deck.png",
+    "homepage": "https://www.artofplay.com/products/a-typographers-deck",
+    "distributor": "Art of Play",
+    "artist": "Furkan Şener",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "2",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "",
+      "total": "2500"
+    }
   }
 ]
