@@ -1851,5 +1851,22 @@
       "number": "1",
       "total": "1"
     }
+  },
+  {
+    "name": "The Art of Retail",
+    "description": "\"The Art of Retail\" depicts the Walmart Visitor Center Museum, where thousands of visitors each year learn about the art of retail as practiced by Sam Walton and, today, the Walmart family of stores around the world. The original painting is on permanent display at the museum. Brendan O'Connell's \"Walmart Series\" of paintings take his audience into the world of Walmart. These paintings have been collected widely and exhibited in New York, Shanghai, Toronto, Boston, and reviewed in Art in America and the Boston Globe.",
+    "image": "images/bicycle-walmart-museum-playing-cards.png",
+    "homepage": "",
+    "distributor": "Walmart",
+    "artist": "Brendan O'Connell",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854021316",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
