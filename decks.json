@@ -1086,5 +1086,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Pack of Dogs Playing Cards",
+    "description": "Transformed by an artist’s imagination, these ordinary playing cards are a small box of treasure. Here are dogs as we imagine them to be: coy, heroic, aloof, comical and always lovable. A dramatic ballerina, a heroic soldier, a love-struck troubadour are each presented with great wit and good humor. Printed in the USA by the United States Playing Card Company.",
+    "image": "images/pack-of-dogs-playing-cards.png",
+    "homepage": "https://www.artiphany.com/products/pack-of-dogs-playing-cards",
+    "distributor": "Artiphany",
+    "artist": "John Littleboy",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854022351",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
