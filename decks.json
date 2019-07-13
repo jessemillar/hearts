@@ -1613,5 +1613,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "White Artisans",
+    "description": "The design is breathtaking, featuring elegant gold foil hot stamped onto ultra-lux white paper derived from sustainable forests. Pure, clean, and beautiful.",
+    "image": "images/white-artisans.png",
+    "homepage": "https://store.theory11.com/products/white-artisans",
+    "distributor": "theory11",
+    "artist": "Simon Frouws",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
