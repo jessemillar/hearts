@@ -1732,5 +1732,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "If an Octopus Could Palm",
+    "description": "In 2011, Dave Buck wrote and released If An Octopus Could Palm, a book showcasing 16 different and interesting palming techniques. This is the accompanying deck of cards, designed to look exactly like the book's dust jacket. Juan Luis Buuel's whimsical artwork is depicted on the backs.",
+    "image": "images/if-an-octopus-could-palm.png",
+    "homepage": "https://www.artofplay.com/products/if-an-octopus-could-palm-playing-cards",
+    "distributor": "Dan and Dave",
+    "artist": "Juan Luis Buuel",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
