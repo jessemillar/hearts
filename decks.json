@@ -1766,5 +1766,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "1001 Aladdin - Red",
+    "description": "An original design from 1885 by The National Card Co. Manufactured to withstand high temperatures and constant precipitation makes this deck great for outdoor use.",
+    "image": "images/1001-aladdin---red.png",
+    "homepage": "https://www.artofplay.com/products/aladdin-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854010013",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
