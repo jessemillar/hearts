@@ -1171,5 +1171,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Mustache Playing Cards",
+    "description": "This is the most fun & whimsical deck of cards ever designed! Not just pretty to look at, it's also very usable - you will enjoy playing your favorite card games like poker, bridge, hearts, gin, and even solitaire. Mustache Playing Cards also makes a perfect gift.",
+    "image": "images/mustache-playing-cards.png",
+    "homepage": "https://www.kickstarter.com/projects/goldklangdesign/mustache-playing-cards-a-uspc-card-deck-from-vanda",
+    "distributor": "Kickstarter",
+    "artist": "Vända",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
