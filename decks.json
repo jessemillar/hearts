@@ -1256,5 +1256,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Drifters",
+    "description": "For the ramblers. For the gamblers. Whichever hand life deals you, Drifters playing cards remind us the journey is the destination.",
+    "image": "images/drifters.png",
+    "homepage": "https://www.artofplay.com/products/drifters",
+    "distributor": "Dan and Dave",
+    "artist": "Curtis Jenkins",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "861402000186",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
