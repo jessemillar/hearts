@@ -1307,5 +1307,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "NOC Colorgrades - Desert Orange",
+    "description": "Produced in collaboration with the popular NOC playing card franchise founded by magician Alex Pandrea. Colorgrades were designed exclusively for Art of Play and inspired by the natural gradients of a desert sunset and tropical forest. Their innovative packaging incorporates a laser cut box that beautifully frames the shift in color from light to dark.",
+    "image": "images/noc-colorgrades---desert-orange.png",
+    "homepage": "https://www.artofplay.com/products/colorgrade-by-noc",
+    "distributor": "Art of Play",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
