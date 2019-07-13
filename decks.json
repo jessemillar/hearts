@@ -1477,5 +1477,22 @@
       "number": "",
       "total": "2000"
     }
+  },
+  {
+    "name": "Tycoon Playing Cards - Crimson Red",
+    "description": "Premium, designer playing cards produced in collaboration with Steve Cohen, \"The Millionaires’ Magician,” star of Chamber Magic®, a headline show at the prestigious Palace Hotel in New York City.",
+    "image": "images/tycoon-playing-cards---crimson-red.png",
+    "homepage": "https://store.theory11.com/products/tycoon-playing-cards",
+    "distributor": "theory11",
+    "artist": "Fournier",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
