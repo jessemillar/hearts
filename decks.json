@@ -1409,5 +1409,22 @@
       "number": "",
       "total": "2500"
     }
+  },
+  {
+    "name": "Makers Playing Cards",
+    "description": "Each tuck case has been embossed and stamped with layers of gold-foiling. The result is nothing short of breathtaking. Out of the box, conjurors and collectors alike will enjoy 14 custom illustrated court-cards representing the foundational “makers” civilization has been built on. To us, these individuals are the pillars of unparalleled craftsmanship: something that we hold in the highest regard. MAKERS are both a tribute and a celebration.",
+    "image": "images/makers-playing-cards.png",
+    "homepage": "https://www.artofplay.com/products/makers-playing-cards",
+    "distributor": "Dan and Dave",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "861402000148",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
