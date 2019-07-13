@@ -1445,9 +1445,9 @@
     }
   },
   {
-    "name": "Bicycle Autumn",
+    "name": "Bicycle Autumn - Green",
     "description": "Updated from a classic card back design, Bicycle Autumn Playing Cards honor the changing of the seasons by bringing a modern twist on an archival classic, outfitted in tones of mixed metals and dressed to celebrate traditions, old and new.",
-    "image": "images/bicycle-autumn.png",
+    "image": "images/bicycle-autumn---green.png",
     "homepage": "https://rareplayingcards.com/products/bicycle-autumn",
     "distributor": "Bicycle",
     "artist": "",
@@ -1543,6 +1543,23 @@
     "condition": "Opened",
     "limitedEdition": {
       "number": "2000",
+      "total": "0"
+    }
+  },
+  {
+    "name": "Bicycle Autumn - Red",
+    "description": "Updated from a classic card back design, Bicycle Autumn Playing Cards honor the changing of the seasons by bringing a modern twist on an archival classic, outfitted in tones of mixed metals and dressed to celebrate traditions, old and new.",
+    "image": "images/bicycle-autumn---red.png",
+    "homepage": "https://www.portfolio52.com/deck/4069/view",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854023198",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
       "total": "0"
     }
   }
