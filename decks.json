@@ -1511,5 +1511,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Tim Burton Playing Cards",
+    "description": "Tim Burton has overseen and approved this wonderful deck of playing cards featuring his beloved characters. Cute and creepy Kings and Queens and skull-backed cards will keep you guessing.",
+    "image": "images/tim-burton-playing-cards.png",
+    "homepage": "https://www.darkhorse.com/Products/15-934/Tim-Burton-Playing-Cards",
+    "distributor": "Dark Horse Delux",
+    "artist": "Tim Burton",
+    "manufacturer": "Unknown",
+    "upc": "761568159349",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
