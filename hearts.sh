@@ -71,7 +71,7 @@ read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck distributor
 echo "Deck distributor:"
-DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Bicycle" "Unknown" "Custom")
+DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Kickstarter" "Bicycle" "Unknown" "Custom")
 select OPTION in "${DISTRIBUTOR_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -89,6 +89,10 @@ do
 					;;
 			"DeckStarter")
 					DISTRIBUTOR="DeckStarter"
+					break
+					;;
+			"Kickstarter")
+					DISTRIBUTOR="Kickstarter"
 					break
 					;;
 			"Bicycle")
