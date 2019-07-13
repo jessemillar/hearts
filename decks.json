@@ -1375,5 +1375,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Eco Edition Playing Cards",
+    "description": "Bicycle® Eco Edition playing cards are made with a fully-recyclable case and deck. The cards are made with sustainable forest papers, starch-based laminating, and vegetable-based inks.",
+    "image": "images/bicycle-eco-edition-playing-cards.png",
+    "homepage": "https://bicyclecards.com/product/bicycle-eco-edition-playing-cards/",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854015971",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
