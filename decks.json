@@ -1052,5 +1052,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Jimmy Fallon Playing Cards",
+    "description": "Every aspect of the design was inspired by the Tonight Show, with iconic illustration elements featuring the New York skyline, Studio 6B, and the man himself: Jimmy Fallon.",
+    "image": "images/jimmy-fallon-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/jimmy-fallon-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
