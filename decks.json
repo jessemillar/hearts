@@ -1647,5 +1647,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Medallions",
+    "description": "The original version was a fan favorite. This new edition is now available with enhanced embossing. A blend of sheer elegance and striking beauty. A timeless object infused with supreme luxury from the Victorian era. After 18 months of discovery, we dug up the perfect recipe. We're proud to announce our newest treasure: Medallions.",
+    "image": "images/medallions.png",
+    "homepage": "https://store.theory11.com/products/medallion-playing-cards",
+    "distributor": "theory11",
+    "artist": "JC Desevre",
+    "manufacturer": "theory11",
+    "upc": "0083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
