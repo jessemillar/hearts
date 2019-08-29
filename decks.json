@@ -1868,5 +1868,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "7-Eleven Collector's Edition 2018",
+    "description": "Made exclusively for 7-Eleven stores in the United States. Includes 7-Eleven deals.",
+    "image": "images/7-eleven-collector's-edition-2018.png",
+    "homepage": "",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "052548625504",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
