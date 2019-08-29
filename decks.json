@@ -1885,5 +1885,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Hidden Bicycle Playing Cards",
+    "description": "A deck that is shrouded in mystery, Hidden invokes the symbolism of secretive societies.",
+    "image": "images/hidden-bicycle-playing-cards.png",
+    "homepage": "https://playingcarddecks.com/products/hidden-bicycle-playing-cards",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854024263",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
