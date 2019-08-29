@@ -1902,5 +1902,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Stargazer Playing Cards",
+    "description": "Get lost in space with this beautifully illustrated deck of cards. Bicycle® playing cards Stargazer features designs and colors inspired by one of the most mysterious and awesome objects in the galaxy, the black hole. The tuck case brings the brilliance of the stars to life with the use of reflective silver foil.",
+    "image": "images/bicycle-stargazer-playing-cards.png",
+    "homepage": "https://bicyclecards.com/product/bicycle-stargazer-playing-cards/",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854023181",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
