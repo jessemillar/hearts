@@ -1953,5 +1953,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Frosted",
+    "description": "A standard deck of Bicycle playing cards with a cool blue theme that loosely feels like Disney's Frozen.",
+    "image": "images/bicycle-frosted.png",
+    "homepage": "",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854025321",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
