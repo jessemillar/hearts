@@ -1936,5 +1936,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Magic Carpet",
+    "description": "A Walmart exclusive deck of standard Bicycle cards with a slight Arabian theme.",
+    "image": "images/bicycle-magic-carpet.png",
+    "homepage": "",
+    "distributor": "Bicycle",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854025000",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
