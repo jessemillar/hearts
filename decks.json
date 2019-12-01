@@ -1970,5 +1970,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Knights - Blue",
+    "description": "Daniel Madison and Chris Ramsay teamed up to bring you the Knights, now printed on Cartamundi B9 stock, coupled with metallic blue backs and smooth, minimal aesthetics. The box is beautifully foiled inside and out, and complimented with detailed embossing, so it looks as good as it feels.",
+    "image": "images/knights---blue.png",
+    "homepage": "https://www.ellusionist.com/blue-knights-playing-cards.html",
+    "distributor": "Ellusionist",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
