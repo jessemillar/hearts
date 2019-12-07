@@ -1987,5 +1987,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Messymod",
+    "description": "Messymod, short for Messy Modernism, is a minimal approach to graphic-design conceived by Los Angeles based creative team, TRÜF. Born from their love of geometry, pattern, white space, Bauhaus, Miró and perhaps a little too much caffeine.",
+    "image": "images/messymod.png",
+    "homepage": "https://www.artofplay.com/products/messymod-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "TRÜF",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
