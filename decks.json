@@ -2021,5 +2021,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Odd Bods",
+    "description": "From the mind of Jonathan Burton, we are taken on a whimsical journey guided by the Odd Bods and their eccentric antics. In this picture deck, the otherworldly playing cards, the characters, were hand-illustrated with the most imaginative dispositions.",
+    "image": "images/odd-bods.png",
+    "homepage": "https://www.artofplay.com/products/odd-bods",
+    "distributor": "Art of Play",
+    "artist": "Jonathan Burton",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "861402000155",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]

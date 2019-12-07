@@ -40,9 +40,6 @@ if [ ! -z "$SEARCH_RESULTS" ]; then
 	exit 1
 fi
 
-### Deck homepage
-read -p "Deck homepage: " -e HOMEPAGE
-
 ### Deck image
 read -p "Deck image: " -e IMAGE
 IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
@@ -62,6 +59,9 @@ if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 	rm -rf tmp
 fi
 IMAGE=images/$IMAGE
+
+### Deck homepage
+read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck description
 read -p "Deck description: " -e DESCRIPTION
