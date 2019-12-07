@@ -2055,5 +2055,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Ace Fulton's Casino - Gold",
+    "description": "Printed exclusively for Aces High Poker Room and Lounge we're delighted to offer a limited run of Fulton's signature playing cards in metallic gold featuring an Ivory finish for smoother handling.",
+    "image": "images/ace-fulton's-casino---gold.png",
+    "homepage": "https://www.artofplay.com/products/ace-fultons-casino-gold-ed",
+    "distributor": "Art of Play",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "",
+      "total": "2500"
+    }
   }
 ]
