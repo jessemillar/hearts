@@ -2072,5 +2072,22 @@
       "number": "",
       "total": "2500"
     }
+  },
+  {
+    "name": "DKNG Playing Cards - Red",
+    "description": "Created in partnership with California based creative studio, DKNG Playing Cards offer a fresh interpretation of the classic Bicycle Rider Back. The updated design is crisp and playful in both red and blue.",
+    "image": "images/dkng-playing-cards---red.png",
+    "homepage": "https://www.artofplay.com/products/dkng-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "DKNG Playing Cards",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
