@@ -2089,5 +2089,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Disparos",
+    "description": "As the stand-out deck of the prohibition series, Disparos is back with re-modelled sugar skulls, duelling pistols and custom everything.",
+    "image": "images/disparos.png",
+    "homepage": "https://www.ellusionist.com/disparos-black-playing-cards.html",
+    "distributor": "Ellusionist",
+    "artist": "",
+    "manufacturer": "Ellusionist",
+    "upc": "",
+    "notes": "Disparos - Spanish for 'shots' is how tequila should be consumed.",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]

@@ -48,7 +48,7 @@ IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
 if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 	mkdir tmp
 	cd tmp
-	curl -JLO $IMAGE
+	curl -JLO $IMAGE --silent
 	TMP_FILENAME=$(ls | head -n 1)
 	FINAL_NAME=${NAME// /-}.png
 	FINAL_NAME_LOWERCASE=$(echo "$FINAL_NAME" | awk '{print tolower($0)}')
