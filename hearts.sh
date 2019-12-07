@@ -40,11 +40,12 @@ if [ ! -z "$SEARCH_RESULTS" ]; then
 	exit 1
 fi
 
+### Deck homepage
+read -p "Deck homepage: " -e HOMEPAGE
+
 ### Deck image
-while [ -z ${IMAGE} ]; do
-	read -p "Deck image: " -e IMAGE
-	IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
-done
+read -p "Deck image: " -e IMAGE
+IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
 
 # Download images provided via a URL
 if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
@@ -66,8 +67,6 @@ IMAGE=images/$IMAGE
 read -p "Deck description: " -e DESCRIPTION
 # Trim whitespace
 DESCRIPTION=$(echo $DESCRIPTION | awk '{$1=$1};1')
-
-read -p "Deck homepage: " -e HOMEPAGE
 
 ### Deck distributor
 echo "Deck distributor:"
