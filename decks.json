@@ -2123,5 +2123,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "NoMad",
+    "description": "NoMad Playing Cards were produced in collaboration with The NoMad Hotel in New York City. In the 19th century, The NoMad District of New York was the meeting place of the era’s elite - from Oscar Wilde to Charles Dickens, Mark Twain to Nikola Tesla. Our vision was to create a deck of cards that would serve as a monument to The NoMad. The result is a timeless blend of beauty and elegance.",
+    "image": "images/nomad.png",
+    "homepage": "https://store.theory11.com/products/nomad-playing-cards",
+    "distributor": "theory11",
+    "artist": "Chad Michael",
+    "manufacturer": "theory11",
+    "upc": "083120071100",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]

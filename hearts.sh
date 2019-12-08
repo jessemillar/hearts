@@ -70,7 +70,7 @@ DESCRIPTION=$(echo $DESCRIPTION | awk '{$1=$1};1')
 
 ### Deck distributor
 echo "Deck distributor:"
-DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Kickstarter" "Bicycle" "Unknown" "Custom")
+DISTRIBUTOR_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "Kickstarter" "Bicycle" "Ellusionist" "Unknown" "Custom")
 select OPTION in "${DISTRIBUTOR_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -98,6 +98,10 @@ do
 					DISTRIBUTOR="Bicycle"
 					break
 					;;
+			"Ellusionist")
+				  DISTRIBUTOR="Ellusionist"
+					break
+					;;
 			"Unknown")
 					DISTRIBUTOR=""
 					break
@@ -118,7 +122,7 @@ ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
-MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Unknown" "Custom")
+MANUFACTURER_OPTIONS=("Art of Play" "theory11" "Dan and Dave" "DeckStarter" "United States Playing Card Company" "Ellusionist" "Unknown" "Custom")
 select OPTION in "${MANUFACTURER_OPTIONS[@]}"
 do
 	case $OPTION in
@@ -140,6 +144,10 @@ do
 					;;
 			"United States Playing Card Company")
 					MANUFACTURER="United States Playing Card Company"
+					break
+					;;
+			"Ellusionist")
+				  MANUFACTURER="Ellusionist"
 					break
 					;;
 			"Unknown")
