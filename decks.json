@@ -2106,5 +2106,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Salt & Bone",
+    "description": "Stolen from a shipwreck aground the piping hot sands of Tortuga beach, these are Salt and Bone playing cards. Inspired by the life and times of Captan H. Every, the man behind the biggest heist in history, this deck celebrates bad intentions by becoming the lost bounty.",
+    "image": "images/salt-&-bone.png",
+    "homepage": "https://www.ellusionist.com/salt-bone-playing-cards.html",
+    "distributor": "Ellusionist",
+    "artist": "",
+    "manufacturer": "Ellusionist",
+    "upc": "",
+    "notes": "Part of the Prohibition set",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
