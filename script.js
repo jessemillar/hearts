@@ -13,6 +13,8 @@ var database = (function() {
 })();
 
 $('#txt-search').keyup(function(){
+	console.log(database[0].name);
+
             var searchField = $(this).val();
 			if(searchField === '')  {
 				$('#filter-records').html('');
