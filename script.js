@@ -1,3 +1,17 @@
+var database = (function() {
+  var json = null;
+  $.ajax({
+    'async': false,
+    'global': false,
+    'url': "decks.json",
+    'dataType': "json",
+    'success': function(data) {
+      json = data;
+    }
+  });
+  return json;
+})();
+
 $('#txt-search').keyup(function(){
             var searchField = $(this).val();
 			if(searchField === '')  {
@@ -8,13 +22,14 @@ $('#txt-search').keyup(function(){
             var regex = new RegExp(searchField, "i");
             var output = '<div class="row">';
             var count = 1;
-			  $.each(data, function(key, val){
-				if ((val.employee_salary.search(regex) != -1) || (val.employee_name.search(regex) != -1)) {
+			  $.each(database, function(key, val){
+				if ((val.name.search(regex) != -1) || (val.description.search(regex) != -1)) {
 				  output += '<div class="col-md-6 well">';
-				  output += '<div class="col-md-3"><img class="img-responsive" src="'+val.profile_image+'" alt="'+ val.employee_name +'" /></div>';
+				  output += '<div class="col-md-3"><img class="img-responsive" src="'+val.image+'" alt="'+ val.name +'" /></div>';
 				  output += '<div class="col-md-7">';
-				  output += '<h5>' + val.employee_name + '</h5>';
-				  output += '<p>' + val.employee_salary + '</p>'
+				  output += '<h5>' + val.name + '</h5>';
+				  output += '<p>' + val.description + '</p>'
+				  output += '<p>' + val.owned + '</p>'
 				  output += '</div>';
 				  output += '</div>';
 				  if(count%2 == 0){
@@ -25,4 +40,4 @@ $('#txt-search').keyup(function(){
 			  });
 			  output += '</div>';
 			  $('#filter-records').html(output);
-        });
+});
