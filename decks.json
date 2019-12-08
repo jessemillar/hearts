@@ -773,8 +773,8 @@
     "artist": "",
     "manufacturer": "United States Playing Card Company",
     "upc": "073854023969",
-    "notes": "",
-    "owned": "This is the 2017 version.",
+    "notes": "This is the 2017 version.",
+		"owned": "1",
     "condition": "Sealed",
     "limitedEdition": {
       "number": "0",
@@ -875,8 +875,8 @@
     "artist": "",
     "manufacturer": "United States Playing Card Company",
     "upc": "073854023617",
-    "notes": "",
-    "owned": "This is the 2016 version.",
+    "owned": "1",
+    "notes": "This is the 2016 version.",
     "condition": "Opened",
     "limitedEdition": {
       "number": "0",
