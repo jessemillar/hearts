@@ -2140,5 +2140,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle 1900 - Blue",
+    "description": "The Bicycle 1900s Deck looks like it’s been weathered and abused, exposed to the elements, left to experience every second for over a hundred years.",
+    "image": "images/bicycle-1900---blue.png",
+    "homepage": "https://www.ellusionist.com/bicycle-1900-playing-cards-blue.html",
+    "distributor": "Ellusionist",
+    "artist": "",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "850006548002",
+    "notes": "",
+    "owned": "",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
