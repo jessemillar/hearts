@@ -774,7 +774,7 @@
     "manufacturer": "United States Playing Card Company",
     "upc": "073854023969",
     "notes": "This is the 2017 version.",
-		"owned": "1",
+    "owned": "1",
     "condition": "Sealed",
     "limitedEdition": {
       "number": "0",
@@ -2150,6 +2150,23 @@
     "artist": "",
     "manufacturer": "United States Playing Card Company",
     "upc": "850006548002",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
+  },
+  {
+    "name": "Jane Austen",
+    "description": "For design inspiration the artist relied on fashion plates found in Ackermann's Repository of Arts—an influential British periodical published from 1809–1829 that featured articles and images on art, architecture, fashion, furniture, needlework patterns, and politics. It is likely that Miss Austen would have been familiar with this publication.",
+    "image": "images/jane-austen.png",
+    "homepage": "https://www.artofplay.com/products/jane-austen-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "John Eric Ligon",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
     "notes": "",
     "owned": "1",
     "condition": "Opened",
