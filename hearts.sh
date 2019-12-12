@@ -22,38 +22,38 @@ LIMITED_TOTAL=0
 ### Deck name
 # Mandatory fields are wrapped in while loops
 while [ -z "$NAME" ]; do
-	read -p "Deck name: " -e NAME
+	read -rp "Deck name: " -e NAME
 	# Trim whitespace
-	NAME=$(echo $NAME | awk '{$1=$1};1')
+	NAME=$(echo "$NAME" | awk '{$1=$1};1')
 done
 
 ### Optional deck color
-read -p "Deck style/color: " -e STYLE
-if [ ! -z "$STYLE" ]; then
+read -rp "Deck style/color: " -e STYLE
+if [ -n "$STYLE" ]; then
 	NAME="$NAME - $STYLE"
 fi
 
 # Check the database for similar decks before adding to the array
 SEARCH_RESULTS=$(cat decks.json | jq --arg NAME "$NAME" '.[] | select(.name|test($NAME)) | .name')
-if [ ! -z "$SEARCH_RESULTS" ]; then
+if [ -n "$SEARCH_RESULTS" ]; then
 	echo "A deck named '$NAME' already exists in decks.json"
 	exit 1
 fi
 
 ### Deck image
-read -p "Deck image: " -e IMAGE
-IMAGE=$(echo $IMAGE | awk '{$1=$1};1')
+read -rp "Deck image: " -e IMAGE
+IMAGE=$(echo "$IMAGE" | awk '{$1=$1};1')
 
 # Download images provided via a URL
 if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 	mkdir tmp
-	cd tmp
-	curl -JLO $IMAGE --silent
+	cd tmp || exit 1
+	curl -JLO "$IMAGE" --silent
 	TMP_FILENAME=$(ls | head -n 1)
 	FINAL_NAME=${NAME// /-}.png
 	FINAL_NAME_LOWERCASE=$(echo "$FINAL_NAME" | awk '{print tolower($0)}')
-	convert "$TMP_FILENAME" $FINAL_NAME
-	mv $FINAL_NAME ../images/$FINAL_NAME_LOWERCASE
+	convert "$TMP_FILENAME" "$FINAL_NAME"
+	mv "$FINAL_NAME" ../images/"$FINAL_NAME_LOWERCASE"
 	IMAGE=$FINAL_NAME_LOWERCASE
 	cd ..
 	rm -rf tmp
@@ -61,12 +61,12 @@ fi
 IMAGE=images/$IMAGE
 
 ### Deck homepage
-read -p "Deck homepage: " -e HOMEPAGE
+read -rp "Deck homepage: " -e HOMEPAGE
 
 ### Deck description
-read -p "Deck description: " -e DESCRIPTION
+read -rp "Deck description: " -e DESCRIPTION
 # Trim whitespace
-DESCRIPTION=$(echo $DESCRIPTION | awk '{$1=$1};1')
+DESCRIPTION=$(echo "$DESCRIPTION" | awk '{$1=$1};1')
 
 ### Deck distributor
 echo "Deck distributor:"
@@ -108,7 +108,7 @@ do
 					;;
 			"Custom")
 					while [ -z "$DISTRIBUTOR" ]; do
-						read -p "Custom distributor: " -e DISTRIBUTOR
+						read -rp "Custom distributor: " -e DISTRIBUTOR
 					done
 					break
 					;;
@@ -117,8 +117,8 @@ do
 done
 
 ### Deck artist
-read -p "Deck artist: " -e ARTIST
-ARTIST=$(echo $ARTIST | awk '{$1=$1};1')
+read -rp "Deck artist: " -e ARTIST
+ARTIST=$(echo "$ARTIST" | awk '{$1=$1};1')
 
 ### Deck manufacturer
 echo "Deck manufacturer:"
@@ -156,7 +156,7 @@ do
 					;;
 			"Custom")
 					while [ -z "$MANUFACTURER" ]; do
-						read -p "Custom manufacturer: " -e MANUFACTURER
+						read -rp "Custom manufacturer: " -e MANUFACTURER
 					done
 					break
 					;;
@@ -165,14 +165,14 @@ do
 done
 
 
-read -p "Deck UPC: " -e UPC
+read -rp "Deck UPC: " -e UPC
 
 ## Deck notes
-read -p "Notes: " -e NOTES
-NOTES=$(echo $NOTES | awk '{$1=$1};1')
+read -rp "Notes: " -e NOTES
+NOTES=$(echo "$NOTES" | awk '{$1=$1};1')
 
 ### How many owned
-read -p "How many owned: [1] " -e OWNED
+read -rp "How many owned: [1] " -e OWNED
 OWNED=${OWNED:-1}
 
 ### Deck condition
@@ -184,14 +184,14 @@ select OPTION in "${CONDITION_OPTIONS[@]}"; do
 done
 
 ### Limited release decks
-read -p "Is deck part of a limited release? [y/N] " -e LIMITED
+read -rp "Is deck part of a limited release? [y/N] " -e LIMITED
 if [ "$LIMITED" == y ]; then
 	while [ $LIMITED_TOTAL = 0 ]; do
-		read -p "Limited edition total count: " -e LIMITED_TOTAL
+		read -rp "Limited edition total count: " -e LIMITED_TOTAL
 	done
 
 	while [ $LIMITED_NUMBER = 0 ]; do
-		read -p "Limited edition number: " -e LIMITED_NUMBER
+		read -rp "Limited edition number: " -e LIMITED_NUMBER
 	done
 fi
 
@@ -200,4 +200,3 @@ jq --arg NAME "$NAME" --arg DESCRIPTION "$DESCRIPTION" --arg IMAGE "$IMAGE" --ar
 
 # Push the update to GitHub
 git add -A && git commit -m "Adding the $NAME deck" && git push
-

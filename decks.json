@@ -2174,5 +2174,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Parks",
+    "description": "Produced in collaboration with the Fifty-Nine Parks Print Series. Each face-card will house a park for a total of 12 Parks in the deck. In this set you’ll find: Acadia, Arches, Everglades, Grand Canyon, Great Smoky, Joshua Tree, Mount Rainier, Olympic, Rocky Mountain, Yellowstone, Yosemite, and Zion.",
+    "image": "images/parks.png",
+    "homepage": "https://www.artofplay.com/products/parks",
+    "distributor": "Art of Play",
+    "artist": "Fifty-Nine Parks Print Series",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
