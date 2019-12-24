@@ -2191,5 +2191,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Tavern on the Green",
+    "description": "Originally designed by Calvert Vaux, Tavern on the Green was built as a sheep fold in the 1880’s to house 700 Southdown sheep. The building was transformed into a restaurant in 1934 as part of a park renovation by Robert Moses. Reopened in 2014, the restaurant paid homage to their roots with inviting décor and wood paneling reminiscent of the original sheep fold. It’s only fitting that these limited edition Tavern on the Green Playing Cards pay homage to this storied history. Shielded in green and gold foil, Tavern on the Green Playing Cards feature the most intricate details on a tuck case we’ve ever produced - inside and out - every detail shines. Exquisite embossing and ultra-rich foil create an aura that only belongs to Tavern.",
+    "image": "images/tavern-on-the-green.png",
+    "homepage": "https://store.theory11.com/products/tavern-on-the-green",
+    "distributor": "theory11",
+    "artist": "Kevin Cantrell",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
