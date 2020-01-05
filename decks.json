@@ -2225,5 +2225,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Star Wars Playing Cards - The Dark Side",
+    "description": "Channel your inner Sith, join the First Order, or maintain order in the galaxy alongside Emperor Palpatine’s Imperial Army. The Dark Side deck features Darth Vader’s lightsaber, the Death Star, and the Empire’s fleet of starships. “You don't know the power of the dark side!”",
+    "image": "images/star-wars-playing-cards---the-dark-side.png",
+    "homepage": "https://store.theory11.com/products/star-wars-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
