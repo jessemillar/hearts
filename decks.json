@@ -2208,5 +2208,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Star Wars Playing Cards - The Light Side",
+    "description": "Join Jedi Knights, climb aboard the Millennium Falcon, and become a Rebel or Resistance hero. The Light Side deck features Luke Skywalker’s lightsaber, R2-D2, and fighters from the Rebel fleet.",
+    "image": "images/star-wars-playing-cards---the-light-side.png",
+    "homepage": "https://store.theory11.com/products/star-wars-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
