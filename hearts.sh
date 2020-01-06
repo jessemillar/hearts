@@ -54,6 +54,9 @@ if [[ $IMAGE =~ ^https?:\/\/.+ ]]; then
 	FINAL_NAME_LOWERCASE=$(echo "$FINAL_NAME" | awk '{print tolower($0)}')
 	convert "$TMP_FILENAME" "$FINAL_NAME"
 	mv "$FINAL_NAME" ../images/"$FINAL_NAME_LOWERCASE"
+	# Make a preview image
+	cp ../images/"$FINAL_NAME_LOWERCASE" ../images/previews/"$FINAL_NAME_LOWERCASE"
+	mogrify -resize 100 ../images/previews/"$FINAL_NAME_LOWERCASE"
 	IMAGE=$FINAL_NAME_LOWERCASE
 	cd ..
 	rm -rf tmp
