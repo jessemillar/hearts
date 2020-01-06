@@ -23,6 +23,23 @@
     <div class="container" style="padding-top: 50px;">
       <div class="twelve columns">
         <div class="row">
+          <p>
+            <a href="https://jessemillar.com">Jesse Millar</a> likes playing
+            cards. He currently owns [number] decks.
+          </p>
+          <p>
+            If you're looking for a good gift for Jesse, a deck of playing cards
+            is always a safe bet. Use the content below to peruse his current
+            collection. He prefers decks from Art of Play and theory11 for their
+            superior quality and design, but will happily accept any deck,
+            novelty or otherwise. Duplicate decks often make him as happy as new
+            decks.
+          </p>
+        </div>
+      </div>
+
+      <div class="twelve columns">
+        <div class="row">
           <input
             class="u-full-width"
             type="text"
@@ -31,9 +48,10 @@
           />
         </div>
       </div>
+
       <div class="row">
         <div class="twelve columns">
-          <table>
+          <table class="u-full-width">
             <thead>
               <tr>
                 <th>Name</th>
@@ -57,13 +75,14 @@
       dataType: "json",
       success: function(data) {
         database = data;
+        showAllDecks();
       }
     });
 
     $("#search").keyup(function() {
       var searchField = $(this).val();
       if (searchField === "") {
-        $("#results").html("");
+        showAllDecks();
         return;
       }
 
@@ -75,23 +94,37 @@
             val.name.search(regex) != -1 ||
             val.description.search(regex) != -1
           ) {
-            output += "<tr>";
-            output += "<td>" + val.name + "</td>";
-						output += "<td>" + val.description + "</td>";
-            output += "<td>" + val.owned + "</td>";
-            output +=
-              '<td><a href="' +
-              val.image +
-              '"><img class="u-max-full-width" src="' +
-              val.image +
-              '" alt="' +
-              val.name +
-              '" /></a></td>';
-            output += "<tr>";
+            output += getDeckHTML(val);
           }
         });
         $("#results").html(output);
       }
     });
+
+    function showAllDecks() {
+      var output = "";
+      $.each(database, function(key, val) {
+        output += getDeckHTML(val);
+      });
+      $("#results").html(output);
+    }
+
+    function getDeckHTML(deck) {
+      var output = "";
+      output += "<tr>";
+      output += "<td>" + deck.name + "</td>";
+      output += "<td>" + deck.description + "</td>";
+      output += "<td>" + deck.owned + "</td>";
+      output +=
+        '<td><a href="' +
+        deck.image +
+        '"><img class="u-max-full-width" src="' +
+        deck.image +
+        '" alt="' +
+        deck.name +
+        '" /></a></td>';
+      output += "<tr>";
+      return output;
+    }
   </script>
 </html>
