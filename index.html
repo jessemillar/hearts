@@ -33,7 +33,7 @@
       </div>
       <div class="row">
         <div class="twelve columns">
-          <table>
+          <table class="u-full-width">
             <thead>
               <tr>
                 <th>Name</th>
@@ -68,7 +68,7 @@
       }
 
       var regex = new RegExp(searchField, "i");
-      var output = '<div class="row">';
+      var output = "";
       if (database.length > 0) {
         $.each(database, function(key, val) {
           if (
@@ -87,9 +87,9 @@
               '" alt="' +
               val.name +
               '" /></a></td>';
+            output += "<tr>";
           }
         });
-        output += "<tr>";
         $("#results").html(output);
       }
     });
