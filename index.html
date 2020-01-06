@@ -9,7 +9,10 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-
+    <script
+      src="https://kit.fontawesome.com/b28a7987d9.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
       rel="stylesheet"
@@ -21,25 +24,45 @@
   </head>
   <body>
     <div class="container" style="padding-top: 50px;">
-      <div class="twelve columns">
-        <div class="row">
+      <div class="row" style="padding-bottom: 30px;">
+        <div class="twelve columns">
+          <center>
+            <i class="fas fa-heart fa-7x" style="color: #ff5555;"></i>
+          </center>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
           <p>
-            <a href="https://jessemillar.com">Jesse Millar</a> likes playing
-            cards. He currently owns [number] decks.
+            <center>
+              <h4>
+                <a href="https://jessemillar.com">Jesse Millar</a> likes playing
+                cards. He currently owns
+                <span id="deck-count">a lot of</span> decks.
+              </h4>
+            </center>
           </p>
           <p>
             If you're looking for a good gift for Jesse, a deck of playing cards
             is always a safe bet. Use the content below to peruse his current
-            collection. He prefers decks from Art of Play and theory11 for their
-            superior quality and design, but will happily accept any deck,
-            novelty or otherwise. Duplicate decks often make him as happy as new
-            decks.
+            collection. He prefers decks from
+            <a href="https://www.artofplay.com/collections/playing-cards"
+              >Art of Play</a
+            >
+            and
+            <a href="https://store.theory11.com/collections/playingcards"
+              >theory11</a
+            >
+            for their superior quality and design, but will happily accept any
+            deck, novelty or otherwise. Duplicate decks often make him as happy
+            as new decks.
           </p>
         </div>
       </div>
 
-      <div class="twelve columns">
-        <div class="row">
+      <div class="row">
+        <div class="twelve columns">
           <input
             class="u-full-width"
             type="text"
@@ -75,6 +98,7 @@
       dataType: "json",
       success: function(data) {
         database = data;
+        calculateTotalDecks();
         showAllDecks();
       }
     });
@@ -100,6 +124,14 @@
         $("#results").html(output);
       }
     });
+
+    function calculateTotalDecks() {
+      var total = 0;
+      $.each(database, function(key, val) {
+        total += parseInt(val.owned);
+      });
+      $("#deck-count").html(total);
+    }
 
     function showAllDecks() {
       var output = "";
