@@ -18,13 +18,6 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
-
-    <style>
-      .img-responsive {
-        max-width: 300px;
-        max-height: 150px;
-      }
-    </style>
   </head>
   <body>
     <div class="container" style="padding-top: 50px;">
@@ -33,7 +26,7 @@
           <input
             class="u-full-width"
             type="text"
-            placeholder="Searh deck name or description"
+            placeholder="Search deck name or description"
             id="search"
           />
         </div>
@@ -87,11 +80,13 @@
             output += "<td>" + val.description + "</td>";
             output += "<td>" + val.owned + "</td>";
             output +=
-              '<td><img class="img-responsive" src="' +
+              '<td><a href="' +
+              val.image +
+              '"><img class="u-max-full-width" src="' +
               val.image +
               '" alt="' +
               val.name +
-              '" /></td>';
+              '" /></a></td>';
           }
         });
         output += "<tr>";
