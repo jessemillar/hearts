@@ -2259,5 +2259,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Ultimate Deck",
+    "description": "Featuring 54 unique works of art, each with an elaborate back design. Every single card in the Ultimate Deck is represented with a story, incorporating classical art, as well as works from today's leading illustrators.",
+    "image": "images/ultimate-deck.png",
+    "homepage": "https://www.artofplay.com/products/ultimate-deck-stranger-and-stranger-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "Stranger & Stranger",
+    "manufacturer": "Art of Play",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
