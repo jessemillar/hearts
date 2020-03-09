@@ -2276,5 +2276,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Disney Pirates of the Caribbean Playing Cards",
+    "description": "All hands on deck for a game of rummy with these Pirates of the Caribbean playing cards. Standard 52 card pack was inspired by original pre-production designs for Walt Disney's classic attraction.",
+    "image": "images/disney-pirates-of-the-caribbean-playing-cards.png",
+    "homepage": "https://www.yourwdwstore.net/Disney-Playing-Cards--Pirates-of-the-Caribbean_p_44413.html",
+    "distributor": "Disney Theme Park Merchandise",
+    "artist": "Disney Imagineers",
+    "manufacturer": "",
+    "upc": "400009234800",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
