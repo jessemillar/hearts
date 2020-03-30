@@ -2327,5 +2327,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Hollywood Roosevelt",
+    "description": "Hollywood Roosevelt Playing Cards were produced in collaboration with The Hollywood Roosevelt Hotel in Los Angeles, California. Our vision was to create a deck of cards that would honor its style and history, and celebrate a new modern era. The result is an exquisite blend of elegance and class.",
+    "image": "images/hollywood-roosevelt.png",
+    "homepage": "https://store.theory11.com/products/hollywood-roosevelt-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
