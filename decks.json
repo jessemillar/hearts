@@ -2344,5 +2344,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Derren Brown - Special Edition Box Set",
+    "description": "Over the past two years, these playing cards have been crafted with passion, precision, and art direction by Derren Brown. Wrapped in gold and green to resemble an antique book, these cards are an elegant tool for magic, card games, collectors, and beyond.",
+    "image": "images/derren-brown---special-edition-box-set.png",
+    "homepage": "https://store.theory11.com/products/derren-brown-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "Available individually or in a Special Edition Box Set. Each box set holds two decks, hidden in a blind-debossed, vegan leather-bound box, featuring a gold foil stamp of intricate art from the cards within. Includes a letterpressed, typewritten note from Derren, enclosed in a kraft paper, wax-sealed envelope. 100 random letters are hand-signed, with the rest letterpressed facsimiles. Please keep the exact contents a secret.",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
