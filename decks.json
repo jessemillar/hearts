@@ -2378,5 +2378,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "ZOMA Playing Cards",
+    "description": "Produced in collaboration with Zoma Wellness, a California-based luxury cannabis brand. This extremely intricate deck highlights the brands' attention to detail and quality in both product and packaging.",
+    "image": "images/zoma-playing-cards.png",
+    "homepage": "https://www.artofplay.com/products/zoma-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "Pavement Design",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
