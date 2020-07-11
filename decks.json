@@ -2395,5 +2395,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "DKNG Wheels - Yellow",
+    "description": "Created in collaboration with California based creative studio, DKNG. Yellow Wheel Playing Cards offers a fresh interpretation of the classic Bicycle Rider Back. The updated design is crisp and playful. Now, for a limited time, available in Yellow, just in time for Summer!",
+    "image": "images/dkng-wheels---yellow.png",
+    "homepage": "https://www.artofplay.com/products/dkng-yellow-wheels",
+    "distributor": "Art of Play",
+    "artist": "DKNG",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "Unknown",
+      "total": ""
+    }
   }
 ]
