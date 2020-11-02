@@ -2412,5 +2412,22 @@
       "number": "Unknown",
       "total": "Unknown"
     }
+  },
+  {
+    "name": "Cauldron Blessed",
+    "description": "A limited edition deck of cards that was included as part of the October Bookish book box themed after the \"Kingdom of the Wicked\" book by Kerri Maniscalco.",
+    "image": "images/",
+    "homepage": "",
+    "distributor": "The Book(ish) Box",
+    "artist": "@starsthatdream",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "1",
+      "total": ""
+    }
   }
 ]
