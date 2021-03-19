@@ -2446,5 +2446,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Mandalorian Playing Cards",
+    "description": "The Mandalorian Playing Cards feature completely custom artwork in every aspect of the design, with the Aces, Jokers, court cards, and back design inspired by fan-favorite characters and events.",
+    "image": "images/mandalorian-playing-cards.png",
+    "homepage": "https://store.theory11.com/products/mandalorian-playing-cards",
+    "distributor": "theory11",
+    "artist": "",
+    "manufacturer": "theory11",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
