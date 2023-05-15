@@ -2480,5 +2480,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Playing Cats - Spring",
+    "description": "Playing Cats is a deck of 54 cards with 18 super cute cats from the Cat Sudoku game series illustrated by the amazing Kaiami. The key element or suits in the Playing Cats is the four seasons in Japan.",
+    "image": "images/playing-cats---spring.png",
+    "homepage": "https://www.kickstarter.com/projects/tatewu/playing-cats",
+    "distributor": "",
+    "artist": "Kaiami",
+    "manufacturer": "",
+    "upc": "",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
