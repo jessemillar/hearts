@@ -2497,5 +2497,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Bicycle Marquis Playing Cards",
+    "description": "Bicycle Marquis playing cards feature a luxurious intricate design that evokes the feeling of the Art Deco era of the 1920s and 1930s. The intricate tuck case is printed on a gorgeous uncoated plum-colored stock for an ultra-premium feel.",
+    "image": "images/bicycle-marquis-playing-cards.png",
+    "homepage": "https://bicyclecards.com/shop/bicycle-marquis-playing-cards-10024197",
+    "distributor": "Bicycle",
+    "artist": "Andrew Dougherty",
+    "manufacturer": "United States Playing Card Company",
+    "upc": "073854093900",
+    "notes": "",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
