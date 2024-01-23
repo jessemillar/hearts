@@ -2548,5 +2548,22 @@
       "number": "0",
       "total": "0"
     }
+  },
+  {
+    "name": "Eames Playing Cards - Kite",
+    "description": "Made in collaboration with the Eames Office. Eames \"Kite\" Playing Cards take inspiration from a tissue-paper kite designed by Charles Eames in 1950.",
+    "image": "images/eames-playing-cards---kite.png",
+    "homepage": "https://www.artofplay.com/products/eames-kite-design-playing-cards",
+    "distributor": "Art of Play",
+    "artist": "Dan and Dave, Eames Office",
+    "manufacturer": "Art of Play",
+    "upc": "",
+    "notes": "Purchased during a Crystal Bridges Museum of American trip with Steph in late January",
+    "owned": "1",
+    "condition": "Opened",
+    "limitedEdition": {
+      "number": "0",
+      "total": "0"
+    }
   }
 ]
